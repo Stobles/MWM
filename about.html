@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас</title>
+    <link rel="stylesheet" href="./css/style.min.css" type="text/css">
+    <script src="../js/app.min.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+   <div class="container">
+      <div class="header__contact contact">
+         <ul class="header__contact--links contact__links">
+            <li class="header__contact--paragraph contact__paragraph">
+               <a class="header__contact--link contact__link icon-facebook" href="facebook.com" target="_blank">
+                  
+               </a>
+            </li>
+            <li class="header__contact--paragraph contact__paragraph">
+               <a class="header__contact--link contact__link icon-instagram" href="instagram.com" target="_blank">
+                  
+               </a>
+            </li>
+            <li class="header__contact--paragraph contact__paragraph">
+               <a class="header__contact--link contact__link icon-linkedin" href="https://linkedin.com" target="_blank">
+                  
+               </a>
+            </li>
+            <li class="header__contact--paragraph contact__paragraph">
+               <a class="header__contact--link contact__link icon-twitter" href="https://twitter.com" target="_blank">
+                  
+               </a>
+            </li>
+            <li class="header__contact--paragraph contact__paragraph">
+               <a class="header__contact--link contact__link icon-behance" href="https://behance.com" target="_blank"></a>
+            </li>
+         </ul>
+         <div class="header__contact--tel contact__tel">
+            <button id="tel-button" class="header__contact--teltext contact__teltext">+380 (93) 20 100 21</button>
+            <span class="header__contact--text contact__text">Нажмите, чтобы скопировать</span>
+            <div id="tel-modal" class="header__contact--modal contact__modal">
+               Текст скопирован в буфер обмена
+            </div>
+         </div>
+      </div>
+      <div class="header__central central"> 
+         <div class="central__burger">
+            <button id="nav-open" class="header__burger--button central__burger--button">
+               <span class="header__burger--span central__burger--span"></span>
+            </button>
+            <div class="header__burger--menu central__burger--menu">Меню</div>
+         </div>
+         <div class="central__brand">
+            <a href="/" class="central__img">
+               <img class="central__logo" src="img/header/Logo.png" alt="">
+            </a>
+            <span class="central__brandtext">Magic Wood Maps</span>
+         </div>
+         <div class="central__search">
+            <div class="central__form">
+               <form action="GET" class=" central__search">
+                  <input class=" central__input" placeholder="Найти..." type="text">
+               </form>
+            </div>
+         </div>
+         <ul class="central__actions">
+            <li class="central__action icon-account">
+               <a class="header__main--account central__link" href="#">Аккаунт</a>
+            </li>
+            <li class="central__action icon-cart">
+               <button class="header__main--cart central__link">Корзина</button>
+            </li>
+            <li class="central__action icon-heart">
+               <a class="header__main--like central__link" href="#">Понравилось</a>
+            </li>
+         </ul>
+
+         <ul class="central__actions--mobile">
+            <li class="central__action--mobile central__cart--parent">
+               <a href="" class="central__link central__cart icon-cart"></a>
+               <span class="central__link--span"></span>
+            </li>
+            <li class="central__action--mobile central__heart--parent">
+               <a href="" class="central__link central__heart icon-heart"></a>
+               <span class="central__link--span"></span>
+            </li>
+         </ul>
+      </div>
+      <nav id="nav" class="header__nav nav">
+         <button id="nav-close" class="nav__close"></button>
+         <div class="nav__title">Меню</div>
+         <div class="nav__inner">
+            <ul class="nav__main">
+               <li class="nav__main--paragraph">
+                  <a id="nav-link" class="nav__main--link" href="/">Главная</a>
+               </li>
+               <li class="nav__main--paragraph">
+                  <a id="nav-link" class="nav__main--link" href="/about.html">Про нас</a>
+               </li>
+               <li class="nav__main--paragraph">
+                  <a id="nav-link" class="nav__main--link" href="/">Контакты</a>
+               </li>
+               <li class="nav__main--paragraph">
+                  <a id="nav-link" class="nav__main--link" href="/">Блог</a>
+               </li>
+               <li class="nav__main--paragraph">
+                  <a id="nav-link" class="nav__main--link" href="/">Каталог</a>
+               </li>
+            </ul>
+            <ul class="nav__help">
+               <div class="nav__help--inner">
+                  <li class="nav__help--paragraph">
+                     <a id="nav-link" class="nav__help--link" href="">Оферта</a>
+                  </li>
+                  <li class="nav__help--paragraph">
+                     <a id="nav-link" class="nav__help--link" href="">Доставка</a>
+                  </li>
+                  <li class="nav__help--paragraph">
+                     <a id="nav-link" class="nav__help--link" href="">FAQ</a>
+                  </li>
+               </div>
+               <ul class="nav__social">
+                  <li class="nav__social--paragraph button__social">
+                     <a href="" class="nav__social--link icon-facebook"></a>
+                  </li>
+                  <li class="nav__social--paragraph button__social">
+                     <a href="" class="nav__social--link icon-instagram"></a>
+                  </li>
+                  <li class="nav__social--paragraph button__social">
+                     <a href="" class="nav__social--link icon-twitter"></a>
+                  </li>
+               </ul>
+               <li>
+                  <div class="nav__copyright">©2022, Magic Wood Map</div>
+               </li>
+            </ul>
+            
+         </div>
+      </nav>
+   </div>
+</header>
+    <main class="main">
+      About
+    </main>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__inner">
+      <div class="footer__search footer__part">
+        <div class="footer__search--title">Magic Wood Map</div>
+        <form action="GET" class="footer__search--form">
+          <input class="footer__search--input" type="email" placeholder="Ваш e-mail">
+          <button class="footer__search--button" type="submit">Отправить</button>
+        </form>
+        <ul class="footer__social">
+          <li class="footer__social--paragraph">
+            <a href="#" class="footer__social--link icon-facebook"></a>
+          </li>
+          <li class="footer__social--paragraph">
+            <a href="#" class="footer__social--link icon-instagram"></a>
+          </li>
+          <li class="footer__social--paragraph">
+            <a href="#" class="footer__social--link icon-twitter"></a>
+          </li>
+        </ul>
+        <div class="footer__copyright">©2022, Magic Wood Map</div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__nav footer__part">
+          <div class="footer__nav--inner">
+            <div class="footer__nav--title footer__part--title">Меню</div>
+            <ul class="footer__nav--links">
+              <li class="footer__nav--paragraph footer__part--paragraph ellipsis">
+                <a class="footer__nav--link footer__part--link" href="#">Главная</a>
+              </li>
+              <li class="footer__nav--paragraph footer__part--paragraph ellipsis" >
+                <a class="footer__nav--link footer__part--link" href="#">Про нас</a>
+              </li>
+              <li class="footer__nav--paragraph footer__part--paragraph ellipsis">
+                <a class="footer__nav--link footer__part--link" href="#">Контакты</a>
+              </li>
+              <li class="footer__nav--paragraph footer__part--paragraph ellipsis">
+                <a class="footer__nav--link footer__part--link" href="#">Блог</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__contacts footer__part">
+          <div class="footer__contacts--inner">
+            <div class="footer__contacts--title footer__part--title">Контакты</div>
+            <ul class="footer__contacts--list">
+              <li class="footer__contacts--paragraph">
+                <div class="footer__contacts--subtitle">Отдел продаж</div>
+                <div class="footer__contacts--links">
+                  <a href="tel:+380945704321" class="footer__contacts--link footer__part--link ellipsis">+38 (094) 570 43 21</a>
+                  <a href="mailto:info@mail.ru" class="footer__contacts--link footer__part--link ellipsis">info@mail.ru</a>
+                </div>
+              </li>
+              <li class="footer__contacts--paragraph">
+                <div class="footer__contacts--subtitle">Отдел маркетинга</div>
+                <div class="footer__contacts--links">
+                  <a href="tel:+380945704321" class="footer__contacts--link footer__part--link ellipsis">+38 (094) 570 43 21</a>
+                  <a href="mailto:info@mail.ru" class="footer__contacts--link footer__part--link ellipsis">info@mail.ru</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__pages footer__part">
+          <div class="footer__pages--inner">
+            <div class="footer__pages--title footer__part--title">Страницы</div>
+            <ul class="footer__pages--list">
+              <li class="footer__pages--paragraph footer__part--paragraph ellipsis">
+                <a href="#" class="footer__pages--link">Оферта</a>
+              </li>
+              <li class="footer__pages--paragraph footer__part--paragraph">
+                <a href="#" class="footer__pages--link">Доставка</a>
+              </li>
+              <li class="footer__pages--paragraph footer__part--paragraph">
+                <a href="#" class="footer__pages--link">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
